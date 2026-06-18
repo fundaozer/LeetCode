@@ -4,7 +4,8 @@ class Solution(object):
         for num in nums:
             if num in seen:
                 return True
-            seen.add(num)
+            else:
+                seen.add(num)
         return False
                
       
